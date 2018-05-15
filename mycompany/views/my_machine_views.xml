@@ -1,10 +1,10 @@
 <odoo>
-    <record id="machine_action" model="ir.actions.act_window">
-        <field name="name" >Machines</field>
-        <field name="res_model" >company.machine</field>
-        <field name="view_type">form</field>
-        <field name="view_mode">tree,form</field>
-    </record>
+        <record id="machine_action" model="ir.actions.act_window">
+            <field name="name" >Machines</field>
+            <field name="res_model" >company.machine</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
 
     <record id="comp_mach_tree" model="ir.ui.view">
         <field name="name" >Machines Tree View</field>
